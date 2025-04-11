@@ -4,3 +4,18 @@ const productos = [
     { id: 3, nombre: "Zapatillas", precio: 8000, categoria: "Calzado" }, { id: 4, nombre: "Gorra", precio: 1200, categoria: "Accesorios" },
     { id: 5, nombre: "Campera", precio: 9500, categoria: "Ropa" }
     ];
+
+
+    //Parte 1
+    //1)
+    console.log(productos[0]);
+    
+    //2)
+    for (let producto of productos){
+        console.log("Producto: " + producto.nombre + " ,Precio:" + producto.precio);
+    }
+
+    // 3)
+    productos.forEach(producto => {
+        console.log("producto:" + producto.nombre + ", Precio: " + producto.precio)
+    });
